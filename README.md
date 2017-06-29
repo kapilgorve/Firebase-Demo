@@ -1,19 +1,9 @@
-Ready to deploy Heroku starter app for AngularJs applications.
-This is configured with scss auto compilation with watch ,js angular app files compilation to bundle.js,
-VSCode task setup.
-
-Comes with latest AngularJs,UI-Router,Bootstrap3,Lodash,Font Awesome.
-
-Strict annotation is enabled with ng-strict-di directive , so  explicitly annotate the function using either the inline bracket notation or with the $inject property.
-
+Simple Firebase crud app.
 
 
 $npm install -g nodemon   
 Install nodemon on your system.
 
-$ git clone https://github.com/kapilgorve/angularjs-boilerplate.git
-
-$cd angularjs-boilerplate
 
 $ npm install
 
