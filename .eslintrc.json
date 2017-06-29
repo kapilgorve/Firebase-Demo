@@ -27,6 +27,9 @@
         "API_URL":true,
         "gapi":true,
         "google":true,
-        "jQuery":true
+        "jQuery":true,
+        "firebase":true,
+        "ref":true,
+        "Firebase":true
     }
 }

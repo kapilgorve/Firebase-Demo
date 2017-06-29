@@ -1,0 +1,29 @@
+<div id="register" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <form class="col s12">
+               <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" ng-model="vm.user.email">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate" ng-model="vm.user.pass">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="input-field inline">
+                        <a ng-if="!vm.loading && vm.formType==='register'" ng-click="vm.register()" class="waves-effect waves-light btn">SIGN UP</a>
+            <a ng-if="!vm.loading && vm.formType==='login'" ng-click="vm.login()" class="waves-effect waves-light btn">LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

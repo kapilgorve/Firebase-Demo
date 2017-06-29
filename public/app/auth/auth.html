@@ -1,0 +1,14 @@
+
+  <div class="container">
+      <h4>Please login or register to create dishes.</h4>
+      <div class="row">
+        <div class="col s2">
+     <a class="waves-effect waves-light btn" ng-click="vm.showReg()">Register</a>
+        </div>
+        <div class="col s2">
+       <a class="waves-effect waves-light btn" ng-click="vm.showLogin()">Login</a>
+        </div>
+      </div>
+    <loader ng-if="vm.loading"></loader>
+ 
+  <div ng-include="'app/auth/signup.html'"></div>
